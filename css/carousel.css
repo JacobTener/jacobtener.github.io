@@ -47,9 +47,6 @@ body {
   }
 
   .carouselpic {
-    max-width: 100%;
-    height: auto;
-    width: auto;
     margin-bottom: 3rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -211,5 +208,22 @@ body {
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+    }
+  }
+
+  @media(max-height: 940px){
+    .carouselpic {
+      max-height: 500px;
+    }
+  }
+  @media(max-height: 800px){
+    .carouselpic {
+      max-height: 400px;
+    }
+  }
+
+  @media(max-height: 720px){
+    .carouselpic {
+      max-height: 300px;
     }
   }

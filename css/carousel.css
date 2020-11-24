@@ -2,20 +2,60 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
   
-  
+  .full-page {
+    height: 100vh;
+    width: auto;
+  }
+
+  /* Profile section */
+  .profile-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* Titles  */
+  .title {
+    display: flex;
+    border-top: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    height: 100px;
+  }
+
+
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
+    height: 100vh;
+    width: auto;
   }
+
+  .carouselpic {
+    width: 1200px;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .img-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
@@ -24,16 +64,37 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 100vh;
+    width: 100vw;
   }
   .carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;
-    height: 32rem;
+    min-width: 50%;
+  }
+
+  .carousel-img {
+      height: 300px;
+      width: 300px;
+      margin-top: 6rem;
+      margin-bottom: 2rem;
   }
   
+  .btn-primary-orange {
+    background-color: #f26724;
+    border: #f26724;
+  }
+
+  .btn-primary-lblue {
+    background-color: #047aed;
+    border: #047aed;
+  }
+
+  .btn-primary-red {
+    background-color: #ee5656;
+    border: #ee5656;
+  }
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -56,7 +117,7 @@ body {
   ------------------------- */
   
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
   }
   
   /* Thin out the marketing headings */
@@ -66,7 +127,66 @@ body {
     letter-spacing: -.05rem;
   }
   
+  .featurette-img {
+    width: 400px;
+    height: auto;
+    
+  }
   
+  /* BLOG */
+
+  .blog-container {
+    max-width: 1600px;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px; 
+}
+
+  .blog-list {
+    margin-top: 6rem;
+  }
+
+  .blog-item {
+    margin-top: 2rem;
+  }
+
+  .blog-header {
+    border-bottom: 1px solid#f4f4f4;
+  }
+
+  .blog-title {
+    height: 0;
+  }
+
+  .blog-title > h4 {
+    margin-bottom: 6px;
+  }
+
+  .blog-date > p {
+    margin-bottom: 6px;
+  }
+
+  .author-tag {
+    margin-bottom: 1rem;
+  }
+
+  .blog-content {
+    padding-top: 1rem;
+  }
+
+  .blog-img{
+    width: 700px;
+    height: auto;
+    border: none;
+  }
+
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   

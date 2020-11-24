@@ -187,7 +187,8 @@ body {
   }
 
   .blog-img{
-    width: 700px;
+    max-width: 100%;
+    width: auto;
     height: auto;
     border: none;
   }

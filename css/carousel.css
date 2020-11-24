@@ -211,6 +211,13 @@ body {
     }
   }
 
+  @media(max-width: 767px) {
+    .small-first {
+      order: -1;
+      margin-bottom: 3rem;
+    }
+  }
+
   @media(max-height: 940px){
     .carouselpic {
       max-height: 500px;

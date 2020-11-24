@@ -228,6 +228,7 @@ body {
     .featurette-img {
       box-shadow: none;
     }
+    
   }
 
   @media(max-height: 940px){

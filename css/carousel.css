@@ -213,8 +213,15 @@ body {
 
   @media(max-width: 767px) {
     .small-first {
-      order: -1;
+      order: -2;
       margin-bottom: 3rem;
+    }
+    .small-second {
+      order:-1;
+      margin-bottom: 3rem;
+    }
+    .featurett-img {
+      box-shadow: none;
     }
   }
 

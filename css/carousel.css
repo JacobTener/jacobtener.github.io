@@ -122,6 +122,10 @@ body {
     margin: 2rem 0; /* Space out the Bootstrap <hr> more */
   }
   
+  .featurette-divider-lg {
+    margin: 4rem 0; 
+  }
+
   /* Thin out the marketing headings */
   .featurette-heading {
     font-weight: 300;
@@ -220,7 +224,7 @@ body {
       order:-1;
       margin-bottom: 3rem;
     }
-    .featurett-img {
+    .featurette-img {
       box-shadow: none;
     }
   }

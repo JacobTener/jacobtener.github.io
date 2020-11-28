@@ -228,6 +228,8 @@ body {
     }
     .featurette-img {
       box-shadow: none;
+      max-width: 100%;
+      height: auto;
     }
     
   }
